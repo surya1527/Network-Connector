@@ -1,0 +1,180 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+
+}
+
+/* headingsection */
+.big-heading{
+  font-family: 'Montserrat-Black';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+body{
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+/* sections */
+.coloured_section{
+
+}
+
+.white_section{
+
+}
+
+
+
+
+/* navigationbar */
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+/* download buttons */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+/* tittle-image */
+.tittle-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* features section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  padding: 5%;
+
+}
+.feature-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+.icon{
+
+ color: #ef8172;
+ padding-bottom:  1rem;
+
+
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* testimonials */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1028px) {
+  .tittle-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+#cta{
+
+  color: #fff;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+
+}
+
+
+#footer{
+  color: grey;
+  padding: 7% 15% ;
+
+}
+.social-icon{
+  margin: 20px 12px ;
+}
+.Copyright{
+  padding: 2% 1%;
+}
+.contact:hover{
+  color: grey;
+}
